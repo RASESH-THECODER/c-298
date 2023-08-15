@@ -1,0 +1,246 @@
+#VRML_SIM R2022a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.19586247871927853 0.45895706870584396 -0.8666004260989488 0.9151609481368437
+  position -140.30909334440923 -40.705363053757566 19.871108118972778
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Solid {
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry DEF GROUND Plane {
+        size 2000 2000
+      }
+    }
+  ]
+  boundingObject USE GROUND
+  locked TRUE
+}
+CurvedRoadSegment {
+  translation -64.5 4.5 0.02
+  rotation 0 0 1 1.57
+  width 21.5
+  numberOfLanes 4
+  numberOfForwardLanes 2
+  lines [
+    RoadLine {
+    }
+    RoadLine {
+      color 0.85 0.75 0.3
+      type "double"
+    }
+  ]
+  rightBorder FALSE
+  leftBorder FALSE
+  rightBarrier TRUE
+  leftBarrier TRUE
+  curvatureRadius 40.5
+}
+CurvedRoadSegment {
+  translation -64.5 -64.5 0.02
+  rotation 0 0 1 3.14
+  name "road 2"
+  width 21.5
+  numberOfLanes 4
+  numberOfForwardLanes 2
+  lines [
+    RoadLine {
+    }
+    RoadLine {
+      color 0.85 0.75 0.3
+      type "double"
+    }
+  ]
+  rightBorder FALSE
+  leftBorder FALSE
+  rightBarrier TRUE
+  leftBarrier TRUE
+  curvatureRadius 40.5
+}
+CurvedRoadSegment {
+  translation 4.5 -64.5 0.02
+  rotation 0 0 1 -1.57
+  name "road 4"
+  width 21.5
+  numberOfLanes 4
+  numberOfForwardLanes 2
+  lines [
+    RoadLine {
+    }
+    RoadLine {
+      color 0.85 0.75 0.3
+      type "double"
+    }
+  ]
+  rightBorder FALSE
+  leftBorder FALSE
+  rightBarrier TRUE
+  leftBarrier TRUE
+  curvatureRadius 40.5
+}
+CurvedRoadSegment {
+  translation 4.5 4.5 0.02
+  name "road 6"
+  width 21.5
+  numberOfLanes 4
+  numberOfForwardLanes 2
+  lines [
+    RoadLine {
+    }
+    RoadLine {
+      color 0.85 0.75 0.3
+      type "double"
+    }
+  ]
+  rightBorder FALSE
+  leftBorder FALSE
+  rightBarrier TRUE
+  leftBarrier TRUE
+  curvatureRadius 40.5
+}
+StraightRoadSegment {
+  translation -105 4.5 0.02
+  rotation 0 0 1 -1.57
+  name "road 1"
+  width 21.5
+  numberOfLanes 4
+  numberOfForwardLanes 2
+  lines [
+    RoadLine {
+    }
+    RoadLine {
+      color 0.85 0.75 0.3
+      type "double"
+    }
+  ]
+  rightBorder FALSE
+  leftBorder FALSE
+  rightBarrier TRUE
+  leftBarrier TRUE
+  length 69
+}
+StraightRoadSegment {
+  translation -64.5 -105 0.02
+  name "road 3"
+  width 21.5
+  numberOfLanes 4
+  numberOfForwardLanes 2
+  lines [
+    RoadLine {
+    }
+    RoadLine {
+      color 0.85 0.75 0.3
+      type "double"
+    }
+  ]
+  rightBorder FALSE
+  leftBorder FALSE
+  rightBarrier TRUE
+  leftBarrier TRUE
+  length 69
+}
+StraightRoadSegment {
+  translation -64.5 45 0.02
+  name "road 7"
+  width 21.5
+  numberOfLanes 4
+  numberOfForwardLanes 2
+  lines [
+    RoadLine {
+    }
+    RoadLine {
+      color 0.85 0.75 0.3
+      type "double"
+    }
+  ]
+  rightBorder FALSE
+  leftBorder FALSE
+  rightBarrier TRUE
+  leftBarrier TRUE
+  length 69
+}
+StraightRoadSegment {
+  translation 45 -64.5 0.02
+  rotation 0 0 1 1.5707996938995747
+  name "road 5"
+  width 21.5
+  numberOfLanes 4
+  numberOfForwardLanes 2
+  lines [
+    RoadLine {
+    }
+    RoadLine {
+      color 0.85 0.75 0.3
+      type "double"
+    }
+  ]
+  rightBorder FALSE
+  leftBorder FALSE
+  rightBarrier TRUE
+  leftBarrier TRUE
+  length 69
+}
+BmwX5 {
+  hidden position_0_0 0.053374297960183975
+  hidden position2_0_0 72727.08656356273
+  hidden position_0_1 0.053758017823440016
+  hidden position2_0_1 72768.37115553656
+  hidden position_0_2 67893.47377095734
+  hidden position_0_3 69246.84931192349
+  hidden linearVelocity_0 3.623204497303373 -0.2916459829419356 0.00012360576086117202
+  hidden angularVelocity_0 -0.021640499080140322 -0.0013645387039663767 -0.04753063982960804
+  hidden rotation_1 -0.99756418173038 0.02662846586781297 0.06447191740691309 5.498095800734817
+  hidden linearVelocity_1 3.6445873596818097 -0.39139836092790037 -0.00800086062968831
+  hidden angularVelocity_1 1.0867819627152253 9.913217300745261 -0.8012406007300481
+  hidden rotation_2 -0.9996281766023198 0.02687548732312599 0.0046061615110541305 3.4809484002439333
+  hidden linearVelocity_2 3.6022030958410367 -0.3911229268860005 0.007551802446981018
+  hidden angularVelocity_2 1.0877823087689966 9.906981250294553 -0.8005188638318368
+  hidden rotation_3 0.9999999999999999 0 0 2.6266584252731953
+  hidden linearVelocity_3 3.6657924428656528 -0.23065017176220276 -0.0140821913597465
+  hidden angularVelocity_3 0.6273229873641809 9.79826324106146 -0.18141626725204069
+  hidden rotation_4 1 0 0 6.147226804448793
+  hidden linearVelocity_4 3.5892775370808656 -0.22539613469110348 0.011366042735265588
+  hidden angularVelocity_4 0.6137434167464816 9.594044778880034 -0.17829457038691385
+  translation -57.40850259606441 -104.02917164113155 -0.037328998925824544
+  rotation -0.21292486138156907 -0.3569437915679177 -0.9095351192047277 0.07413801434259727
+  controller "sdc1"
+  sensorsSlotFront [
+    SickLms291 {
+      translation 0 0 -0.2
+    }
+  ]
+  sensorsSlotTop [
+    Camera {
+      translation 0.72 0 -0.05
+      children [
+        DEF camera Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.8 0.8
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.1 0.1 0.1
+          }
+        }
+      ]
+      width 128
+    }
+  ]
+}
+OilBarrel {
+  translation -105.01 -48.08 8.74
+  name "oil barrel(1)"
+}
+OilBarrel {
+  translation -93 -96.22 0.35
+}
